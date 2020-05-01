@@ -9,11 +9,11 @@
 --get the current user
 property myUser : do shell script "whoami"
 --define the remote volume name
-property myVolumeName : "home"
+property myVolumeName : "volume"
 --define the remote server name (protocol included)
-property myDiskName : "afp://DiskStation"
---definte the remote directory (POSIX path)
-property myDestinationFolder : "/Volumes/BaseQI/tests/sync/"
+property myDiskName : "afp://server"
+--define the remote directory (POSIX path)
+property myDestinationFolder : "/Volumes/mountpoint/directory"
 
 -- # VARIABLES END #
 
