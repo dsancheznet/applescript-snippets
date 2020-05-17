@@ -4,7 +4,7 @@
 
 This script syncs a local folder to a remote folder whenever a change is detected.
 
-The user has to configure the following properties before installing the script:
+The user has to configure the following properties before installing the script (this one is optional):
 
 - property myUser : do shell script "whoami"
 
@@ -21,6 +21,12 @@ Given the last example, this would then be `afp://DiskStation`
 - property myDestinationFolder : "/Volumes/Remote/Dir/"
 
 This has to be set to the path the destination folder has, once it is mounted.
+
+The line...
+
+-	mount volume myDiskName & "/" & myVolumeName as user name "" with password ""
+
+...allows you to set a username **different** to your system username (which is autodetected, see above).
 
 Now the script just has to be installed to ´~/Library/Scripts/Folder Action Scripts/´ if only the local user should be able to use it, or ´/Library/Scripts/Folder Action Scripts/´ if any user of the system shall be able to use it.
 
