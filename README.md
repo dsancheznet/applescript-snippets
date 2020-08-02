@@ -33,3 +33,7 @@ Now the script just has to be installed to ´~/Library/Scripts/Folder Action Scr
 Please refer to the Applescript Reference to understand the script: ![Watch Folders](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/WatchFolders.html)
 
 I added the posibility to localize the script changing the messages using properties ( not as elegant as i18n, but it works )
+
+## Display Off
+
+Does nothing but switching the display off. A keypress on the keyboard wakes it up again.  
