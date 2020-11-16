@@ -37,3 +37,8 @@ I added the posibility to localize the script changing the messages using proper
 ## Display Off
 
 Does nothing but switching the display off. A keypress on the keyboard wakes it up again.  
+
+## Update VLC Streamer
+
+Due to the frecuent changes in the rolling cypher google uses on it's youtube platform, it may be neccesary to update the streamer script ( which is written in LUA ). With this script you may trigger an update from the Github Repo of VLC. The only requirement is having VLC installed in Applications.
+
