@@ -42,3 +42,14 @@ Does nothing but switching the display off. A keypress on the keyboard wakes it 
 
 Due to the frecuent changes in the rolling cypher google uses on it's youtube platform, it may be neccesary to update the streamer script ( which is written in LUA ). With this script you may trigger an update from the Github Repo of VLC. The only requirement is having VLC installed in Applications.
 
+## Sonoma
+
+Here are a few new additions to sonoma. Mainly I will be concentrating on my configuration or dot files.
+
+### Install and configure plain vim
+
+Initially I started using neovim because of it's powerful plugin and editing features but in the end, vim is available on almost every linux distro and macOS system ( I even installed it on Haiku and BSD ) so I sacrificed some advanced features I wasn't going to use anyway and made the switch to classic vim. 
+Here is my installer script ( please review before blindly executing ):
+` curl https://raw.githubusercontent.com/dsancheznet/applescript-snippets/master/vim_install.sh | bash `
+
+
