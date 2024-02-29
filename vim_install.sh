@@ -1,6 +1,11 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Custom vim for MacOSX installer by D.Sánchez (c) 2024
+echo "┓┏•     •      ┓┓    "
+echo "┃┃┓┏┳┓  ┓┏┓┏╋┏┓┃┃┏┓┏┓"
+echo "┗┛┗┛┗┗  ┗┛┗┛┗┗┻┗┗┗ ┛ "
+echo "D.Sanchez    (c) 2024"
+read
 
 # Install vim-plug ( https://github.com/junegunn/vim-plug )
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
